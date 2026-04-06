@@ -1,0 +1,80 @@
+SAURAV CHOPADE
+Software Engineer   |   Python   •   TypeScript   •   System Design   •   Full Stack
+Nagpur, Maharashtra   |   +91-9284746564   |   sauravchopade33@gmail.com
+github.com/Sauravv8   |   linkedin.com/in/saurav-chopade-a377b0290   |   calling-bot-omega.vercel.app   |   image-authentication.vercel.app
+PROFESSIONAL SUMMARY
+Results-driven Software Engineer with hands-on experience designing scalable REST APIs, microservices, and production-
+grade full-stack applications. Delivered 2 live production systems integrating third-party APIs (Twilio, Gemini AI, Supabase,
+Unsplash), OAuth 2.0 multi-provider authentication, and PostgreSQL — demonstrating consistent end-to-end engineering
+ownership. Reduced backend API integration time by ~35% and improved ML pipeline throughput by ~25% at internship.
+Proficient in Python, TypeScript, Flask, Express.js, Node.js, React, PostgreSQL, and AWS. Strong foundation in data structures,
+algorithms, object-oriented programming, system design, and agile practices. Oracle Cloud AI Foundations Certified.
+KEY ACHIEVEMENTS
+•   Shipped 2 production-grade full-stack applications — frontend, backend, database, and cloud — all publicly live,
+demonstrating reliable end-to-end software delivery.
+•   Reduced backend API integration time by  ~35%  across 3+ microservices by designing clean REST API contracts with
+consistent error handling.
+•   Improved ML data pipeline throughput by  ~25%  through model optimization, feature engineering, and batch processing
+improvements at internship.
+•   Implemented OAuth 2.0 multi-provider authentication with Supabase Row Level Security —  zero unauthorized access
+incidents  across 100+ test users.
+•   Integrated Twilio voice SDK, Google Gemini AI, and PostgreSQL into a single production system — showcasing complex
+third-party integration and system design capability.
+TECHNICAL SKILLS
+Languages:  Python, TypeScript, JavaScript (ES6+), C, C++ — proficient in OOP, data structures & algorithms
+Backend:  Flask, Express.js, Node.js, REST APIs, Microservices, System Design, Webhook Integration, Async Processing, API
+Design, CI/CD Pipelines
+Frontend:  React.js (React 19), TypeScript, HTML5, CSS3, Tailwind CSS, Vite, Responsive Web Design, Component Architecture
+Databases:  PostgreSQL, SQL Schema Design, Supabase (Auth + RLS), MongoDB, Query Optimization
+AI / ML:  NLP, Sentiment Analysis, LLMs, Prompt Engineering, ControlNet, Stable Diffusion, OpenCV, NumPy, Pandas,
+Predictive Analytics, Feature Engineering
+Cloud & DevOps:  AWS (EC2, S3), Docker, Vercel, Render, Jenkins, CI/CD, Deployment Automation, Agile / Scrum
+Security:  OAuth 2.0, JWT, AES/RSA Cryptography, Helmet.js, CORS, Secure Key Management, Secure Coding, Blockchain /
+Solidity
+Tools:  Git, GitHub, GitLab, Twilio SDK, Gemini AI API, Supabase SDK, SheetJS, ESLint, Postman, Code Reviews, Unit Testing
+PROFESSIONAL EXPERIENCE
+Software Engineer Intern (AI/ML Focus)  | Voice of Ether / Horizon Exhibits, Mumbai
+Dec 2025 – Present
+•   Designed and deployed scalable RESTful APIs using Python and Flask; reduced cross-platform integration time by  ~35%
+across 3+ microservices enabling seamless backend-to-frontend data flow.
+•   Engineered ML models for predictive analytics pipelines; improved data processing throughput by  ~25%  through model
+optimization, feature engineering, and efficient batch processing strategies.
+•   Led root-cause analysis of system performance bottlenecks; refactored backend modules improving system reliability
+and reducing error rates for production users.
+•   Built automated backend workflows using Python, streamlining manual business operations and demonstrating strong
+problem-solving and ownership mindset in an agile environment.
+•   Collaborated cross-functionally to translate business requirements into technical solutions; communicated architectural
+decisions and tradeoffs clearly to non-technical stakeholders.
+TECHNICAL PROJECTS
+ColdCaller.io — AI-Powered Cold Calling Platform  | github.com/Sauravv8/Calling-Bot   |   Live: calling-bot-
+omega.vercel.app
+2025
+•   Architected a complete full-stack cold calling application using React 19 (TypeScript) frontend, Express.js / Node.js
+backend, and PostgreSQL database — fully deployed to Vercel with production-ready configuration.
+•   Integrated Twilio SDK for real-time voice calling with automatic call recording and webhook-based event tracking;
+integrated Google Gemini AI API to auto-generate context-aware call scripts, reducing manual script preparation time
+by  ~60% .
+•   Built a lead management system supporting Excel file import (SheetJS), per-lead status tracking, call notes, and CSV
+export with conversion rate analytics — significantly reducing manual sales workflow effort.
+•   Implemented CORS, Helmet.js security headers, and environment-variable-based credential management; designed
+PostgreSQL schema supporting full call history retrieval and lead analytics.
+Stack:  React 19, TypeScript, Express.js, Node.js, Twilio SDK, Google Gemini AI, PostgreSQL, Tailwind CSS, Vite, Vercel, REST APIs
+Image Search Platform with Multi-Provider OAuth  | github.com/Sauravv8/Image-Authentication   |   Live: image-
+authentication.vercel.app
+2025
+•   Built a production full-stack image search application using React, TypeScript (97% codebase), Tailwind CSS, and Vite;
+integrated Unsplash API for real-time image retrieval with search history and trending analytics.
+•   Implemented multi-provider OAuth 2.0 authentication (Google, Facebook, GitHub) via Supabase Auth with Row Level
+Security policies — ensuring per-user data isolation with  zero unauthorized access incidents  across 100+ test users.
+•   Designed and deployed a PostgreSQL schema on Supabase with RLS-protected read/write policies for per-user search
+history; built trending search analytics giving data-driven insights on most searched terms.
+•   Deployed to Vercel with client-side routing config; applied secure environment variable management for all API keys
+across development and production environments.
+Stack:  React, TypeScript, Tailwind CSS, Vite, Supabase (Auth + PostgreSQL + RLS), Unsplash API, OAuth 2.0, Vercel, REST APIs
+EDUCATION
+B.Tech in Artificial Intelligence  | GH Raisoni College of Engineering and Management, Nagpur
+2022 – 2026
+CGPA: 7.88 / 10.0   |   Coursework: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, Software
+Engineering, Machine Learning, NLP, Distributed Systems
+CERTIFICATIONS
+Oracle Cloud Infrastructure (OCI) 2025 Certified AI Foundations Associate   |   Oracle   |   Aug 2025 – Aug 2027

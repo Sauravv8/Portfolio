@@ -7,6 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from database import Base, engine
 from routes.chat import router as chat_router
+from routes.admin import router as admin_router
 
 load_dotenv()
 
@@ -22,15 +23,15 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Portfolio AI Chat API",
-    description="FastAPI backend powering the AI Resume Chat on Saurav's portfolio.",
-    version="1.0.0",
+    description="FastAPI backend powering the AI Resume Chat on Saurav Chopade's portfolio.",
+    version="2.0.0",
     lifespan=lifespan,
 )
 
 # ─── CORS ──────────────────────────────────────────────────────────────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_ORIGIN, "http://localhost:3000"],
+    allow_origins=[FRONTEND_ORIGIN, "http://localhost:3000", "http://localhost:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -38,11 +39,12 @@ app.add_middleware(
 
 # ─── Routers ───────────────────────────────────────────────────────────────────
 app.include_router(chat_router, prefix="/api")
+app.include_router(admin_router, prefix="/api")
 
 
 @app.get("/")
 async def root():
-    return {"status": "ok", "message": "Portfolio AI Chat API is running."}
+    return {"status": "ok", "message": "Portfolio API v2.0 — Saurav Chopade"}
 
 
 @app.get("/health")

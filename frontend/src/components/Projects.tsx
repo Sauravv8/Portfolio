@@ -1,39 +1,57 @@
 const projects = [
     {
-        name: 'AI-Based Virtual Interior Design Tool',
+        name: 'ColdCaller.io — AI Cold Calling Platform',
         description:
-            'AI-powered tool generating photorealistic interior designs from user prompts using Stable Diffusion and ControlNet. Dynamic room layout understanding.',
-        technologies: ['Flask', 'Stable Diffusion', 'ControlNet', 'Python', 'React'],
-        github: '#',
+            'Full-stack cold calling app with React 19 + TypeScript frontend, Express.js/Node.js backend, and PostgreSQL. Twilio SDK for real-time voice calls, Gemini AI generating dynamic call scripts. Lead management with Excel import & analytics — reducing manual sales effort by ~60%.',
+        technologies: ['React 19', 'TypeScript', 'Express.js', 'Twilio SDK', 'Gemini AI', 'PostgreSQL', 'Vite'],
+        github: 'https://github.com/Sauravv8/Calling-Bot',
+        live: 'https://calling-bot-omega.vercel.app',
+        emoji: '📞',
+    },
+    {
+        name: 'Image Search Platform — Multi-Provider OAuth',
+        description:
+            '97% TypeScript codebase. Multi-provider OAuth 2.0 (Google, Facebook, GitHub) via Supabase Auth with Row Level Security. Real-time Unsplash image search with trending analytics. Zero unauthorized access across 100+ test users.',
+        technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase', 'OAuth 2.0', 'PostgreSQL', 'Vercel'],
+        github: 'https://github.com/Sauravv8/Image-Authentication',
+        live: 'https://image-authentication.vercel.app',
+        emoji: '🔍',
+    },
+    {
+        name: 'AI-Driven Virtual Interior Design System',
+        description:
+            'Full-stack AI web app with Python/Flask backend + React.js frontend. Generates photorealistic interior designs from room images using ControlNet & Stable Diffusion. Optimized inference pipeline by ~40% via async processing and request caching.',
+        technologies: ['Python', 'Flask', 'React.js', 'ControlNet', 'Stable Diffusion', 'OpenCV', 'NumPy'],
+        github: 'https://github.com/Sauravv8/AI-Interior-Design',
         live: null,
         emoji: '🏠',
     },
     {
-        name: 'Portfolio AI Chat',
+        name: 'AigentX — Web3 AI Agent Marketplace',
         description:
-            'This very portfolio! Embedded AI chatbot powered by OpenRouter (Mistral-7B) that answers questions strictly from structured resume data.',
-        technologies: ['FastAPI', 'React', 'TypeScript', 'OpenRouter', 'SQLite', 'Tailwind'],
-        github: '#',
-        live: '#',
-        emoji: '🤖',
-    },
-    {
-        name: 'AgentPay — Web3 Marketplace',
-        description:
-            'Decentralised marketplace for AI agent services. Smart contracts (ERC-20 token, Escrow, Staking), FastAPI backend, Next.js + Wagmi frontend.',
-        technologies: ['Solidity', 'FastAPI', 'Next.js', 'Wagmi', 'Hardhat', 'IPFS'],
-        github: '#',
+            'Production-grade decentralised marketplace for AI agent services. Smart contracts (ERC-20 token, Escrow, Staking), FastAPI backend with wallet authentication, and Next.js + Wagmi/RainbowKit frontend for Web3 interactions.',
+        technologies: ['Solidity', 'TypeScript', 'Next.js', 'Wagmi', 'Hardhat', 'FastAPI'],
+        github: 'https://github.com/Sauravv8/AigentX',
         live: null,
         emoji: '⛓️',
     },
     {
-        name: 'AI Voice Cold-Calling Agent',
+        name: 'Emotional Analysis — Bhagavad Gita AI',
         description:
-            'Automated outbound voice agent for sales calls using ElevenLabs TTS and Twilio. Handles dynamic scripts, real-time conversation, and analytics.',
-        technologies: ['Python', 'ElevenLabs', 'Twilio', 'Flask', 'PostgreSQL'],
-        github: '#',
-        live: null,
-        emoji: '📞',
+            'AI-powered emotion analysis app that detects the user\'s emotional state and provides relevant solutions and guidance from the Bhagavad Gita. Built with TypeScript and React, deployed on Vercel.',
+        technologies: ['TypeScript', 'React', 'NLP', 'AI', 'Emotion Detection'],
+        github: 'https://github.com/Sauravv8/Emotional-analysis-v4',
+        live: 'https://emotional-analysis-v4.vercel.app',
+        emoji: '🧠',
+    },
+    {
+        name: 'Ether Soul — Web3 Platform',
+        description:
+            'Web3 platform with blockchain integration featuring decentralized application architecture with smart contract interactions and a modern frontend.',
+        technologies: ['HTML', 'CSS', 'JavaScript', 'Web3', 'Blockchain'],
+        github: 'https://github.com/Sauravv8/Ether-Soul',
+        live: 'https://ether-soul-vg86.vercel.app',
+        emoji: '🌐',
     },
 ]
 
@@ -57,10 +75,12 @@ export default function Projects() {
                         </h2>
                     </div>
                     <a
-                        href="#"
+                        href="https://github.com/Sauravv8"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="hidden sm:inline-flex items-center gap-2 text-primary-400 hover:text-primary-300 text-sm font-semibold transition-colors underline underline-offset-4"
                     >
-                        View All Projects →
+                        View All on GitHub →
                     </a>
                 </div>
 
@@ -79,6 +99,8 @@ export default function Projects() {
                                     {project.github && (
                                         <a
                                             href={project.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             className="text-white/30 hover:text-white transition-colors"
                                             aria-label="GitHub"
                                         >
@@ -90,6 +112,8 @@ export default function Projects() {
                                     {project.live && (
                                         <a
                                             href={project.live}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             className="text-white/30 hover:text-primary-400 transition-colors"
                                             aria-label="Live demo"
                                         >
@@ -120,25 +144,52 @@ export default function Projects() {
                 </div>
 
                 <div className="text-center mt-10 sm:hidden">
-                    <a href="#" className="btn-outline text-sm">
-                        View All Projects →
+                    <a
+                        href="https://github.com/Sauravv8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-outline text-sm"
+                    >
+                        View All on GitHub →
                     </a>
                 </div>
 
                 {/* Resume Download */}
                 <div className="mt-16 glass rounded-2xl p-8 text-center border border-primary-500/20">
                     <p className="text-white/50 text-sm mb-3">Want to know more about my work?</p>
-                    <h3 className="text-2xl font-bold text-white mb-6">Download my full Resume</h3>
-                    <a
-                        href="/resume.pdf"
-                        download
-                        className="btn-primary"
-                    >
-                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                        </svg>
-                        Download Resume (PDF)
-                    </a>
+                    <h3 className="text-2xl font-bold text-white mb-6">Download my Resume</h3>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        <a
+                            href="http://localhost:8000/resume/Saurav_Chopade_FullStack.pdf"
+                            download
+                            className="btn-primary"
+                        >
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            Full Stack Resume
+                        </a>
+                        <a
+                            href="http://localhost:8000/resume/Saurav_Chopade_FrontendEngineer_Final.docx.pdf"
+                            download
+                            className="btn-outline"
+                        >
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            Frontend Resume
+                        </a>
+                        <a
+                            href="http://localhost:8000/resume/Saurav_Chopade_SoftwareEngineer_Final.pdf"
+                            download
+                            className="btn-outline"
+                        >
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            Software Eng Resume
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

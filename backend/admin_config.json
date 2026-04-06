@@ -1,0 +1,20 @@
+{
+  "active_profile": "fullstack",
+  "profiles": {
+    "fullstack": {
+      "label": "Full Stack Engineer",
+      "file": "profiles/fullstack.json",
+      "resume_pdf": "Saurav_Chopade_FullStack.pdf"
+    },
+    "frontend": {
+      "label": "Frontend Engineer",
+      "file": "profiles/frontend.json",
+      "resume_pdf": "Saurav_Chopade_FrontendEngineer_Final.docx.pdf"
+    },
+    "software_engineer": {
+      "label": "Software Engineer",
+      "file": "profiles/software_engineer.json",
+      "resume_pdf": "Saurav_Chopade_SoftwareEngineer_Final.pdf"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "profile_name": "Frontend Engineer",
+  "name": "Saurav Chopade",
+  "title": "Frontend Engineer",
+  "tagline": "React 19 • TypeScript • Tailwind CSS • UI/UX",
+  "summary": "Creative and detail-oriented Frontend Engineer with production experience building responsive, performant, and accessible web applications. Delivered 2 live applications using React 19, TypeScript, Tailwind CSS, and Vite — a real-time AI calling dashboard with Twilio voice integration and an OAuth-secured multi-provider image search platform. TypeScript codebase coverage at 97% on the Image-Auth project. Skilled in component-based architecture, REST API integration, state management, OAuth 2.0 flows, and cross-browser compatibility. Oracle Cloud AI Foundations Certified.",
+  "contact": {
+    "email": "sauravchopade33@gmail.com",
+    "phone": "+91-9284746564",
+    "location": "Nagpur, Maharashtra",
+    "linkedin": "https://linkedin.com/in/saurav-chopade-a377b0290",
+    "github": "https://github.com/Sauravv8",
+    "portfolio": "https://calling-bot-omega.vercel.app"
+  },
+  "achievements": [
+    "Delivered 2 production React 19 / TypeScript applications — both live on Vercel with real users",
+    "Achieved 97% TypeScript codebase coverage on Image-Authentication project — ensuring type safety and reduced runtime errors",
+    "Built complex real-time React UI integrating Twilio voice SDK — live call controls, mic toggle, DTMF keypad, and recording status",
+    "Implemented multi-provider OAuth 2.0 login flows (Google, Facebook, GitHub) with zero unauthorized access incidents across 100+ test users",
+    "Reduced perceived frontend load time by ~40% through async API calls, loading state management, and client-side caching"
+  ],
+  "skills": [
+    "React.js (React 19)", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Vite",
+    "HTML5", "CSS3", "Responsive Design", "Mobile-First Design", "Component Architecture",
+    "React Router", "Context API", "State Management", "Hooks", "OAuth 2.0",
+    "REST APIs", "Fetch API", "Async/Await", "Supabase SDK", "Twilio Client SDK",
+    "Git", "GitHub", "Vercel", "ESLint", "npm"
+  ],
+  "skill_categories": [
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "⚛️",
+      "items": ["React.js (React 19)", "TypeScript", "JavaScript (ES6+)", "Hooks", "Context API", "State Management", "React Router", "Component Architecture"]
+    },
+    {
+      "category": "Styling & UI",
+      "icon": "🎨",
+      "items": ["Tailwind CSS", "CSS3", "HTML5", "Responsive Design", "Mobile-First", "UI Animations", "Cross-Browser Compatibility", "Accessibility (a11y)"]
+    },
+    {
+      "category": "API & Integration",
+      "icon": "🔌",
+      "items": ["REST APIs", "Fetch API", "Async/Await", "OAuth 2.0", "Supabase SDK", "Twilio Client SDK", "Unsplash API", "SheetJS"]
+    },
+    {
+      "category": "Tooling & DevOps",
+      "icon": "🚀",
+      "items": ["Vite", "ESLint", "npm", "Git", "GitHub", "Vercel", "CI/CD", "Performance Optimization"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Image Search Platform — Multi-Provider OAuth",
+      "description": "Production full-stack image search app with 97% TypeScript codebase. Integrates Unsplash API with multi-provider OAuth 2.0 (Google, Facebook, GitHub) via Supabase Auth with Row Level Security. Zero unauthorized access incidents across 100+ test users. Built trending search analytics dashboard.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Vite", "Supabase", "OAuth 2.0", "PostgreSQL", "Unsplash API", "Vercel"],
+      "github": "https://github.com/Sauravv8/Image-Authentication",
+      "live": "https://image-authentication.vercel.app",
+      "emoji": "🔍"
+    },
+    {
+      "name": "ColdCaller.io — AI Cold Calling Dashboard",
+      "description": "Complex React 19 UI integrating Twilio SDK for real-time voice calling — live call controls, mic toggle, DTMF keypad, and recording status. Gemini AI auto-generates call scripts. Lead management with Excel import (SheetJS), status tracking, and analytics.",
+      "technologies": ["React 19", "TypeScript", "Tailwind CSS", "Twilio SDK", "Gemini AI", "Vite", "Vercel"],
+      "github": "https://github.com/Sauravv8/Calling-Bot",
+      "live": "https://calling-bot-omega.vercel.app",
+      "emoji": "📞"
+    },
+    {
+      "name": "Emotional Analysis App",
+      "description": "Emotion analysis app that detects user emotional state and provides corresponding solutions/guidance from the Bhagavad Gita. Built with TypeScript frontend and AI-powered emotion detection backend.",
+      "technologies": ["TypeScript", "React", "NLP", "Emotion Detection", "AI"],
+      "github": "https://github.com/Sauravv8/Emotional-analysis-v4",
+      "live": "https://emotional-analysis-v4.vercel.app",
+      "emoji": "🧠"
+    },
+    {
+      "name": "Ether Soul — Web3 Platform",
+      "description": "Web3 platform with blockchain integration. Features decentralized application architecture with smart contract interactions and modern frontend built with HTML/CSS/JS.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Web3", "Blockchain"],
+      "github": "https://github.com/Sauravv8/Ether-Soul",
+      "live": "https://ether-soul-vg86.vercel.app",
+      "emoji": "🌐"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Frontend & AI Application Developer Intern",
+      "company": "Voice of Ether / Horizon Exhibits",
+      "location": "Mumbai",
+      "duration": "Dec 2025 – Present",
+      "description": "Built and maintained production React.js/TypeScript frontends integrated with Flask and Express backends. Integrated RESTful APIs, implemented OAuth 2.0 flows, and maintained reusable component libraries. Reduced integration time by ~35% and improved frontend performance significantly."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Artificial Intelligence",
+      "institution": "GH Raisoni College of Engineering and Management, Nagpur",
+      "year": "2022 – 2026",
+      "cgpa": "7.88 / 10.0",
+      "coursework": ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Computer Networks", "Software Engineering", "Machine Learning", "NLP", "Distributed Systems"]
+    }
+  ],
+  "certifications": [
+    "Oracle Cloud Infrastructure (OCI) 2025 Certified AI Foundations Associate — Oracle — Aug 2025 to Aug 2027"
+  ],
+  "languages": ["English (Fluent)", "Hindi (Native)"],
+  "resume_pdf": "Saurav_Chopade_FrontendEngineer_Final.docx.pdf"
+}

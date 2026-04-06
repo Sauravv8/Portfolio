@@ -1,0 +1,111 @@
+{
+  "profile_name": "Software Engineer",
+  "name": "Saurav Chopade",
+  "title": "Software Engineer",
+  "tagline": "Python • TypeScript • System Design • Full Stack",
+  "summary": "Results-driven Software Engineer with hands-on experience designing scalable REST APIs, microservices, and production-grade full-stack applications. Delivered 2 live production systems integrating third-party APIs (Twilio, Gemini AI, Supabase, Unsplash), OAuth 2.0 multi-provider authentication, and PostgreSQL — demonstrating consistent end-to-end engineering ownership. Reduced backend API integration time by ~35% and improved ML pipeline throughput by ~25% at internship. Proficient in Python, TypeScript, Flask, Express.js, Node.js, React, PostgreSQL, and AWS. Oracle Cloud AI Foundations Certified.",
+  "contact": {
+    "email": "sauravchopade33@gmail.com",
+    "phone": "+91-9284746564",
+    "location": "Nagpur, Maharashtra",
+    "linkedin": "https://linkedin.com/in/saurav-chopade-a377b0290",
+    "github": "https://github.com/Sauravv8",
+    "portfolio": "https://calling-bot-omega.vercel.app"
+  },
+  "achievements": [
+    "Shipped 2 production-grade full-stack applications — frontend, backend, database, and cloud — all publicly live",
+    "Reduced backend API integration time by ~35% across 3+ microservices by designing clean REST API contracts with consistent error handling",
+    "Improved ML data pipeline throughput by ~25% through model optimization, feature engineering, and batch processing at internship",
+    "Implemented OAuth 2.0 multi-provider authentication with Supabase Row Level Security — zero unauthorized access incidents across 100+ test users",
+    "Integrated Twilio voice SDK, Google Gemini AI, and PostgreSQL into a single production system — showcasing complex third-party integration"
+  ],
+  "skills": [
+    "Python", "TypeScript", "JavaScript (ES6+)", "C", "C++",
+    "Flask", "Express.js", "Node.js", "REST APIs", "Microservices", "System Design",
+    "React.js", "HTML5", "CSS3", "Tailwind CSS", "Vite",
+    "PostgreSQL", "SQL", "Supabase", "MongoDB",
+    "NLP", "Sentiment Analysis", "LLMs", "ControlNet", "Stable Diffusion", "NumPy", "Pandas",
+    "AWS (EC2, S3)", "Docker", "Vercel", "Jenkins", "CI/CD",
+    "OAuth 2.0", "JWT", "AES/RSA", "Helmet.js", "CORS",
+    "Git", "GitHub", "Twilio SDK", "Gemini AI API", "Postman"
+  ],
+  "skill_categories": [
+    {
+      "category": "Languages & Backend",
+      "icon": "⚙️",
+      "items": ["Python", "TypeScript", "JavaScript (ES6+)", "C", "C++", "Flask", "Express.js", "Node.js", "REST APIs", "Microservices", "System Design"]
+    },
+    {
+      "category": "Frontend & Databases",
+      "icon": "🗄️",
+      "items": ["React.js (React 19)", "TypeScript", "Tailwind CSS", "PostgreSQL", "SQL Schema Design", "Supabase (Auth + RLS)", "MongoDB", "Query Optimization"]
+    },
+    {
+      "category": "AI & ML",
+      "icon": "🤖",
+      "items": ["NLP", "Sentiment Analysis", "LLMs", "Prompt Engineering", "ControlNet", "Stable Diffusion", "OpenCV", "NumPy", "Pandas", "Feature Engineering"]
+    },
+    {
+      "category": "Cloud & Security",
+      "icon": "🔒",
+      "items": ["AWS (EC2, S3)", "Docker", "Vercel", "CI/CD", "OAuth 2.0", "JWT", "AES/RSA Cryptography", "Helmet.js", "CORS", "Secure Coding"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ColdCaller.io — AI-Powered Cold Calling Platform",
+      "description": "Complete full-stack cold calling application with React 19 (TypeScript) frontend, Express.js/Node.js backend, and PostgreSQL. Integrates Twilio SDK for real-time voice calling with Gemini AI auto-generating context-aware call scripts. Reduces manual script preparation time by ~60%. Lead management with Excel import and analytics.",
+      "technologies": ["React 19", "TypeScript", "Express.js", "Node.js", "Twilio SDK", "Gemini AI", "PostgreSQL", "Tailwind CSS", "Vite", "Vercel", "REST APIs"],
+      "github": "https://github.com/Sauravv8/Calling-Bot",
+      "live": "https://calling-bot-omega.vercel.app",
+      "emoji": "📞"
+    },
+    {
+      "name": "Image Search Platform — Multi-Provider OAuth",
+      "description": "Production full-stack image search application with 97% TypeScript codebase. Implements multi-provider OAuth 2.0 (Google, Facebook, GitHub) with Supabase Row Level Security. PostgreSQL schema with RLS-protected policies for per-user data isolation across 100+ test users.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "OAuth 2.0", "Unsplash API", "Vercel"],
+      "github": "https://github.com/Sauravv8/Image-Authentication",
+      "live": "https://image-authentication.vercel.app",
+      "emoji": "🔍"
+    },
+    {
+      "name": "AI-Driven Virtual Interior Design System",
+      "description": "Full-stack AI system using Python/Flask backend and React.js frontend generating photorealistic interior designs from room images. Integrated ControlNet and Stable Diffusion via REST APIs. Optimized inference pipeline by ~40% through async processing, request caching, and batch scheduling.",
+      "technologies": ["Python", "Flask", "React.js", "ControlNet", "Stable Diffusion", "OpenCV", "NumPy", "REST APIs"],
+      "github": "https://github.com/Sauravv8/AI-Interior-Design",
+      "live": null,
+      "emoji": "🏠"
+    },
+    {
+      "name": "AigentX — Web3 AI Agent Marketplace",
+      "description": "Production-grade decentralised marketplace where AI agents offer services. Includes smart contracts (ERC-20 token, Escrow, Staking), FastAPI backend with wallet authentication, and Next.js frontend with Wagmi/RainbowKit for Web3 interactions.",
+      "technologies": ["Solidity", "TypeScript", "Next.js", "Wagmi", "Hardhat", "FastAPI", "IPFS"],
+      "github": "https://github.com/Sauravv8/AigentX",
+      "live": null,
+      "emoji": "⛓️"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer Intern (AI/ML Focus)",
+      "company": "Voice of Ether / Horizon Exhibits",
+      "location": "Mumbai",
+      "duration": "Dec 2025 – Present",
+      "description": "Designed and deployed scalable RESTful APIs using Python and Flask; reduced cross-platform integration time by ~35% across 3+ microservices. Engineered ML models for predictive analytics pipelines, improving data processing throughput by ~25%. Led root-cause analysis of system performance bottlenecks, refactoring backend modules and improving reliability."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Artificial Intelligence",
+      "institution": "GH Raisoni College of Engineering and Management, Nagpur",
+      "year": "2022 – 2026",
+      "cgpa": "7.88 / 10.0",
+      "coursework": ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Computer Networks", "Software Engineering", "Machine Learning", "NLP", "Distributed Systems"]
+    }
+  ],
+  "certifications": [
+    "Oracle Cloud Infrastructure (OCI) 2025 Certified AI Foundations Associate — Oracle — Aug 2025 to Aug 2027"
+  ],
+  "languages": ["English (Fluent)", "Hindi (Native)"],
+  "resume_pdf": "Saurav_Chopade_SoftwareEngineer_Final.pdf"
+}

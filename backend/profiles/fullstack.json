@@ -1,0 +1,109 @@
+{
+  "profile_name": "Full Stack Engineer",
+  "name": "Saurav Chopade",
+  "title": "Full Stack Engineer",
+  "tagline": "Python • React • TypeScript • Node.js • AI Integration",
+  "summary": "Full Stack Engineer with end-to-end ownership of 3 live production applications — covering React 19 / TypeScript frontend, Python Flask & Express.js backend, PostgreSQL / Supabase database design, and Vercel / AWS cloud deployment. Delivered a Twilio + Gemini AI powered calling bot handling real-time voice calls, an OAuth 2.0 multi-provider image platform with Supabase Row-Level Security, and an AI-driven interior design system achieving ~40% inference latency reduction via async processing and model optimization. Proficient in system design, microservices, CI/CD pipelines, and agile delivery. Oracle Cloud AI Foundations Certified.",
+  "contact": {
+    "email": "sauravchopade33@gmail.com",
+    "phone": "+91-9284746564",
+    "location": "Nagpur, Maharashtra",
+    "linkedin": "https://linkedin.com/in/saurav-chopade-a377b0290",
+    "github": "https://github.com/Sauravv8",
+    "portfolio": "https://calling-bot-omega.vercel.app"
+  },
+  "achievements": [
+    "Built and shipped 3 production-grade full-stack applications — all live and publicly accessible on Vercel",
+    "Reduced AI inference latency by ~40% on the Interior Design system through async processing, request batching, and caching strategies",
+    "Improved backend data pipeline throughput by ~25% through ML model optimization at Voice of Ether internship",
+    "Integrated Twilio real-time voice SDK + Google Gemini AI into a single production application, enabling AI-generated dynamic call scripts for 100+ leads",
+    "Implemented OAuth 2.0 multi-provider authentication (Google, GitHub, Facebook) with zero unauthorized access incidents across 100+ test users",
+    "Reduced cross-platform API integration time by ~35% by designing RESTful microservices with clear contracts"
+  ],
+  "skills": [
+    "React.js", "TypeScript", "JavaScript", "Python", "Flask", "Express.js", "Node.js",
+    "PostgreSQL", "Supabase", "MongoDB", "REST APIs", "Microservices",
+    "AWS", "Docker", "Vercel", "CI/CD", "Git",
+    "Gemini AI", "ControlNet", "Stable Diffusion", "NLP", "Prompt Engineering",
+    "OAuth 2.0", "JWT", "Tailwind CSS", "Vite", "HTML5", "CSS3"
+  ],
+  "skill_categories": [
+    {
+      "category": "Frontend",
+      "icon": "🎨",
+      "items": ["React.js (React 19)", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "Vite", "HTML5", "CSS3", "Responsive Design", "Component Architecture"]
+    },
+    {
+      "category": "Backend",
+      "icon": "⚙️",
+      "items": ["Python", "Flask", "Express.js", "Node.js", "REST APIs", "Microservices", "System Design", "Async Processing", "Webhook Integration"]
+    },
+    {
+      "category": "Database & Cloud",
+      "icon": "🗄️",
+      "items": ["PostgreSQL", "Supabase (Auth + RLS)", "MongoDB", "AWS (EC2, S3)", "Vercel", "Docker", "CI/CD Pipelines"]
+    },
+    {
+      "category": "AI & Security",
+      "icon": "🤖",
+      "items": ["Gemini AI", "ControlNet", "Stable Diffusion", "NLP", "Prompt Engineering", "OAuth 2.0", "JWT", "AES/RSA Cryptography"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ColdCaller.io — AI Cold Calling Platform",
+      "description": "Full-stack cold calling application with React 19 (TypeScript) frontend, Express.js/Node.js backend, and PostgreSQL. Integrates Twilio SDK for real-time voice calling with Gemini AI auto-generating dynamic call scripts. Lead management system with Excel import, status tracking, and analytics — reducing manual sales effort by ~60%.",
+      "technologies": ["React 19", "TypeScript", "Express.js", "Node.js", "Twilio SDK", "Gemini AI", "PostgreSQL", "Tailwind CSS", "Vite", "Vercel"],
+      "github": "https://github.com/Sauravv8/Calling-Bot",
+      "live": "https://calling-bot-omega.vercel.app",
+      "emoji": "📞"
+    },
+    {
+      "name": "Image Search Platform — Multi-Provider OAuth",
+      "description": "Production full-stack image search app with 97% TypeScript codebase. Integrates Unsplash API with multi-provider OAuth 2.0 (Google, Facebook, GitHub) via Supabase Auth with Row Level Security. Zero unauthorized access incidents across 100+ test users.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Vite", "Supabase", "OAuth 2.0", "PostgreSQL", "Unsplash API", "Vercel"],
+      "github": "https://github.com/Sauravv8/Image-Authentication",
+      "live": "https://image-authentication.vercel.app",
+      "emoji": "🔍"
+    },
+    {
+      "name": "AI-Driven Virtual Interior Design System",
+      "description": "Full-stack AI web application using Python/Flask backend and React.js frontend that generates photorealistic interior designs from room images. Integrated ControlNet and Stable Diffusion via REST APIs, optimizing inference pipeline by ~40% through async processing and request caching.",
+      "technologies": ["Python", "Flask", "React.js", "ControlNet", "Stable Diffusion", "OpenCV", "NumPy", "REST APIs"],
+      "github": "https://github.com/Sauravv8/AI-Interior-Design",
+      "live": null,
+      "emoji": "🏠"
+    },
+    {
+      "name": "AigentX — Web3 AI Agent Marketplace",
+      "description": "Decentralised marketplace where AI agents offer services. Includes smart contracts (ERC-20 token, Escrow, Staking), FastAPI backend with wallet authentication, and Next.js frontend with Wagmi/RainbowKit for Web3 interactions.",
+      "technologies": ["Solidity", "TypeScript", "Next.js", "Wagmi", "Hardhat", "FastAPI"],
+      "github": "https://github.com/Sauravv8/AigentX",
+      "live": null,
+      "emoji": "⛓️"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack AI/ML Engineer Intern",
+      "company": "Voice of Ether / Horizon Exhibits",
+      "location": "Mumbai",
+      "duration": "Dec 2025 – Present",
+      "description": "Designed and deployed scalable RESTful APIs using Python and Flask; reduced cross-platform integration time by ~35% across 3+ microservices. Built React.js/TypeScript frontends integrated with Flask/Express backends. Engineered ML models for predictive analytics pipelines, improving data processing throughput by ~25% through feature engineering and batch processing."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Artificial Intelligence",
+      "institution": "GH Raisoni College of Engineering and Management, Nagpur",
+      "year": "2022 – 2026",
+      "cgpa": "7.88 / 10.0",
+      "coursework": ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Computer Networks", "Software Engineering", "Machine Learning", "NLP", "Distributed Systems"]
+    }
+  ],
+  "certifications": [
+    "Oracle Cloud Infrastructure (OCI) 2025 Certified AI Foundations Associate — Oracle — Aug 2025 to Aug 2027"
+  ],
+  "languages": ["English (Fluent)", "Hindi (Native)"],
+  "resume_pdf": "Saurav_Chopade_FullStack.pdf"
+}

@@ -1,0 +1,91 @@
+SAURAV CHOPADE
+Full Stack Engineer  |  Python  •  React  •  TypeScript  •  Node.js  •  AI Integration
+Nagpur, Maharashtra  |  +91-9284746564  |  sauravchopade33@gmail.com
+github.com/Sauravv8  |  linkedin.com/in/saurav-chopade-a377b0290  |  calling-bot-omega.vercel.app  |  image-authentication.vercel.app
+PROFESSIONAL SUMMARY
+Full Stack Engineer with end-to-end ownership of 3 live production applications — covering React 19 / TypeScript frontend,
+Python Flask & Express.js backend, PostgreSQL / Supabase database design, and Vercel / AWS cloud deployment. Delivered a
+Twilio + Gemini AI powered calling bot handling real-time voice calls, an OAuth 2.0 multi-provider image platform with
+Supabase Row-Level Security, and an AI-driven interior design system achieving ~40% inference latency reduction via async
+processing and model optimization. Proficient in system design, microservices, CI/CD pipelines, and agile delivery. Passionate
+about building scalable, AI-integrated products. Oracle Cloud AI Foundations Certified.
+KEY ACHIEVEMENTS
+• ​   Built and shipped 3 production-grade full-stack applications — all live and publicly accessible on Vercel — demonstrating
+end-to-end ownership across frontend, backend, database, and cloud deployment.
+• ​   Reduced AI inference latency by ~40% on the Interior Design system through async processing, request batching, and
+caching strategies — directly improving production user experience.
+• ​   Improved backend data pipeline throughput by ~25% through ML model optimization and feature engineering at Voice
+of Ether internship.
+• ​   Integrated Twilio real-time voice SDK + Google Gemini AI into a single production application, enabling AI-generated
+dynamic call scripts and automatic call recording for 100+ leads.
+• ​   Implemented OAuth 2.0 multi-provider authentication (Google, GitHub, Facebook) with Supabase Row Level Security —
+achieving zero unauthorized access incidents across 100+ test users.
+• ​   Reduced cross-platform API integration time by ~35% by designing RESTful microservices with clear contracts across 3+
+services at internship.
+TECHNICAL SKILLS
+Frontend:  React.js (React 19), TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite, Responsive Design, Component
+Architecture, State Management, Hooks
+Backend:  Python, Flask, Express.js, Node.js, REST APIs, Microservices, System Design, Webhook Integration, Async Processing,
+API Design, Scalability
+Databases:  PostgreSQL, Supabase (Auth + RLS + Realtime), SQL Schema Design, MongoDB, Query Optimization, Row Level
+Security
+AI / ML:  NLP, Sentiment Analysis, LLMs, Prompt Engineering, Gemini AI, ControlNet, Stable Diffusion, OpenCV, NumPy,
+Pandas, Predictive Analytics, Model Optimization
+Cloud & DevOps:  AWS (EC2, S3), Docker, Vercel, Render, Jenkins, CI/CD Pipelines, Deployment Automation, Agile / Scrum, Git
+workflow
+Security:  OAuth 2.0, JWT, AES/RSA Cryptography, Helmet.js, CORS, Secure Key Management, Secure Coding Practices,
+Blockchain / Solidity
+Languages:  TypeScript, Python, JavaScript (ES6+), C, C++
+Tools & APIs:  Git, GitHub, GitLab, Twilio SDK, Gemini AI API, Unsplash API, Supabase SDK, SheetJS, ESLint, Postman, Code
+Reviews
+PROFESSIONAL EXPERIENCE
+Full Stack AI/ML Engineer Intern  | Voice of Ether / Horizon Exhibits, Mumbai Dec 2025 – Present
+• ​   Designed and deployed scalable RESTful APIs using Python and Flask; reduced cross-platform integration time by  ~35%
+across 3+ microservices, enabling seamless data flow between frontend and backend systems.
+• ​   Built and maintained React.js / TypeScript frontends fully integrated with Flask / Express backends; ensured end-to-end
+data consistency from PostgreSQL database to production UI across sprint cycles.
+• ​   Engineered and optimized ML models for predictive analytics data pipelines; improved data processing throughput by
+~25%  through feature engineering, model tuning, and efficient batch processing strategies.
+• ​   Led root-cause analysis of full-stack performance bottlenecks; refactored backend modules and React components,
+reducing system error rates and improving response time for production users.
+• ​   Collaborated cross-functionally in an agile environment; managed version control via Git and communicated technical
+decisions, tradeoffs, and progress clearly to non-technical stakeholders.
+TECHNICAL PROJECTS
+ColdCaller.io — AI-Powered Cold Calling Platform  | github.com/Sauravv8/Calling-Bot  |  Live:
+calling-bot-omega.vercel.app 2025
+• ​   Architected a complete full-stack cold calling application using React 19 (TypeScript) frontend, Express.js / Node.js
+backend, and PostgreSQL database — fully deployed to Vercel with production-ready render.yaml config.
+• ​   Integrated  Twilio SDK  for real-time voice calling with automatic call recording, DTMF keypad, mic toggle, and
+webhook-based call event tracking; integrated Google Gemini AI API to auto-generate context-aware call scripts from
+custom user prompts.
+• ​   Built a lead management system supporting Excel file import via SheetJS, per-lead status tracking, call notes, and CSV
+export with conversion rate analytics — reducing manual sales operation effort by  ~60% .
+• ​   Implemented CORS, Helmet.js security headers, and environment-variable-based credential management; designed
+PostgreSQL schema with calls and leads tables supporting full call history retrieval and analytics.
+Stack:  React 19, TypeScript, Express.js, Node.js, Twilio SDK, Google Gemini AI, PostgreSQL, Tailwind CSS, Vite, Vercel, REST APIs, SheetJS
+Image Search Platform with Multi-Provider OAuth  | github.com/Sauravv8/Image-Authentication  |  Live:
+image-authentication.vercel.app 2025
+• ​   Built a production full-stack image search application using React, TypeScript (97% codebase), Tailwind CSS, and Vite;
+integrated Unsplash API for real-time image retrieval with search history tracking and trending analytics.
+• ​   Implemented multi-provider OAuth 2.0 authentication (Google, Facebook, GitHub) via Supabase Auth with Row Level
+Security (RLS) database policies — ensuring per-user data isolation with  zero unauthorized access incidents  across 100+
+test users.
+• ​   Designed and deployed a PostgreSQL schema on Supabase with RLS-protected read/write policies for user search
+history; built trending search analytics queries giving data-driven insights on most searched terms.
+• ​   Deployed to Vercel with vercel.json client-side routing config; managed all API keys through secure environment
+variables across development and production environments — following security best practices.
+Stack:  React, TypeScript, Tailwind CSS, Vite, Supabase (Auth + PostgreSQL + RLS), Unsplash API, OAuth 2.0, Vercel, REST APIs, JavaScript
+AI-Driven Virtual Interior Design System  | github.com/Sauravv8/AI-Interior-Design 2024
+• ​   Architected a full-stack AI web application using Python, Flask (backend), and React.js (frontend) that generates
+photorealistic interior designs from room images — end-to-end system design ownership from API to UI.
+• ​   Integrated ControlNet and Stable Diffusion models via REST APIs for image-to-design inference; optimized the inference
+pipeline by  ~40%  through async processing, request caching, and batch scheduling strategies.
+• ​   Applied modular component architecture, Git-based version control, secure coding practices, and conducted peer code
+reviews — maintaining production-quality standards across both frontend and backend codebases.
+Stack:  Python, Flask, React.js, ControlNet, Stable Diffusion, OpenCV, NumPy, REST APIs, HTML5, CSS3, JavaScript, Git
+EDUCATION
+B.Tech in Artificial Intelligence  | GH Raisoni College of Engineering and Management, Nagpur 2022 – 2026
+CGPA: 7.88 / 10.0    |   Coursework: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, Software
+Engineering, Machine Learning, NLP, Distributed Systems
+CERTIFICATIONS
+Oracle Cloud Infrastructure (OCI) 2025 Certified AI Foundations Associate   |  Oracle  |  Aug 2025 – Aug 2027

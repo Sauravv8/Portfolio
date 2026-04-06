@@ -13,10 +13,9 @@ export default function Contact() {
     }
 
     const socials = [
-        { icon: 'in', label: 'LinkedIn', href: '#' },
-        { icon: 'f', label: 'Facebook', href: '#' },
-        { icon: '𝕏', label: 'Twitter', href: '#' },
-        { icon: '✉', label: 'Email', href: 'mailto:example@gmail.com' },
+        { icon: 'in', label: 'LinkedIn', href: 'https://linkedin.com/in/saurav-chopade-a377b0290' },
+        { icon: '⌂', label: 'GitHub', href: 'https://github.com/Sauravv8' },
+        { icon: '✉', label: 'Email', href: 'mailto:sauravchopade33@gmail.com' },
     ]
 
     return (
@@ -43,7 +42,7 @@ export default function Contact() {
                             Let's build something amazing together. I'm available for freelance projects and collaborations.
                         </p>
                     </div>
-                    <a href="mailto:example@gmail.com" className="btn-primary relative z-10 whitespace-nowrap">
+                    <a href="mailto:sauravchopade33@gmail.com" className="btn-primary relative z-10 whitespace-nowrap">
                         Contact Now →
                     </a>
                 </div>
@@ -68,21 +67,21 @@ export default function Contact() {
                                 <div className="w-10 h-10 rounded-lg bg-primary-600/20 border border-primary-600/30 flex items-center justify-center text-lg shrink-0">📧</div>
                                 <div>
                                     <p className="text-white/40 text-xs mb-0.5">EMAIL</p>
-                                    <p className="text-white font-medium text-sm">example@gmail.com</p>
+                                    <p className="text-white font-medium text-sm">sauravchopade33@gmail.com</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4 glass rounded-xl p-4 border border-white/5">
                                 <div className="w-10 h-10 rounded-lg bg-primary-600/20 border border-primary-600/30 flex items-center justify-center text-lg shrink-0">📞</div>
                                 <div>
                                     <p className="text-white/40 text-xs mb-0.5">PHONE</p>
-                                    <p className="text-white font-medium text-sm">+123-456-789</p>
+                                    <p className="text-white font-medium text-sm">+91-9284746564</p>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4 glass rounded-xl p-4 border border-white/5">
                                 <div className="w-10 h-10 rounded-lg bg-primary-600/20 border border-primary-600/30 flex items-center justify-center text-lg shrink-0">📍</div>
                                 <div>
                                     <p className="text-white/40 text-xs mb-0.5">LOCATION</p>
-                                    <p className="text-white font-medium text-sm">13/1 Eye St, Co. to, Delaware</p>
+                                    <p className="text-white font-medium text-sm">Nagpur, Maharashtra, India</p>
                                 </div>
                             </div>
                         </div>

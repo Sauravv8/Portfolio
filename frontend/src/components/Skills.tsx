@@ -4,28 +4,28 @@ const skillCategories = [
         title: 'AI & Machine Learning',
         color: 'from-violet-600/30 to-purple-600/10',
         border: 'border-violet-500/30',
-        skills: ['Stable Diffusion', 'ControlNet', 'LangChain', 'OpenRouter', 'Prompt Engineering'],
+        skills: ['Gemini AI', 'ControlNet', 'Stable Diffusion', 'NLP', 'Prompt Engineering', 'OpenCV', 'NumPy', 'Pandas'],
     },
     {
         icon: '⚙️',
         title: 'Backend Development',
         color: 'from-purple-600/30 to-indigo-600/10',
         border: 'border-purple-500/30',
-        skills: ['Python', 'FastAPI', 'Flask', 'SQLAlchemy', 'PostgreSQL', 'REST APIs'],
+        skills: ['Python', 'Flask', 'Express.js', 'Node.js', 'REST APIs', 'Microservices', 'System Design', 'PostgreSQL'],
     },
     {
         icon: '🎨',
         title: 'Frontend Development',
         color: 'from-indigo-600/30 to-blue-600/10',
         border: 'border-indigo-500/30',
-        skills: ['React', 'TypeScript', 'Next.js', 'TailwindCSS', 'Vite', 'Axios'],
+        skills: ['React 19', 'TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3', 'Responsive Design'],
     },
     {
         icon: '🚀',
-        title: 'DevOps & Tools',
+        title: 'Cloud & DevOps',
         color: 'from-fuchsia-600/30 to-pink-600/10',
         border: 'border-fuchsia-500/30',
-        skills: ['Docker', 'Git', 'Linux', 'Cloudflare', 'Uvicorn', 'GitHub Actions'],
+        skills: ['AWS (EC2, S3)', 'Docker', 'Vercel', 'CI/CD', 'Git', 'GitHub', 'OAuth 2.0', 'JWT'],
     },
 ]
 
@@ -39,7 +39,8 @@ export default function Skills() {
                         My <span className="gradient-text">skills</span>
                     </h2>
                     <p className="text-white/50 max-w-lg mx-auto leading-relaxed">
-                        Technologies I work with daily to build production-grade AI applications and web services.
+                        Technologies I use daily to build production-grade AI applications, scalable APIs,
+                        and performant frontends. Oracle Cloud AI Foundations Certified.
                     </p>
                 </div>
 
@@ -67,6 +68,27 @@ export default function Skills() {
                             </div>
                         </div>
                     ))}
+                </div>
+
+                {/* Certifications */}
+                <div className="mt-12 glass rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4 border border-primary-500/20">
+                    <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-xl bg-orange-500/20 border border-orange-500/30 flex items-center justify-center text-xl">
+                            🏆
+                        </div>
+                        <div>
+                            <p className="text-white font-semibold text-sm">Oracle Cloud Infrastructure (OCI) 2025</p>
+                            <p className="text-white/50 text-xs">Certified AI Foundations Associate — Aug 2025 to Aug 2027</p>
+                        </div>
+                    </div>
+                    <a
+                        href="https://linkedin.com/in/saurav-chopade-a377b0290"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="shrink-0 text-xs text-primary-400 hover:text-primary-300 transition-colors border border-primary-500/30 px-3 py-1.5 rounded-lg hover:bg-primary-600/10"
+                    >
+                        View on LinkedIn →
+                    </a>
                 </div>
             </div>
         </section>

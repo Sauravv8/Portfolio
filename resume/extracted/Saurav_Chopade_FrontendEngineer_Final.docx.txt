@@ -1,0 +1,76 @@
+SAURAV CHOPADE
+Frontend Engineer  |  React 19  •  TypeScript  •  Tailwind CSS  •  UI/UX
+Nagpur, Maharashtra  |  +91-9284746564  |  sauravchopade33@gmail.com
+github.com/Sauravv8  |  linkedin.com/in/saurav-chopade-a377b0290  |  calling-bot-omega.vercel.app  |  image-authentication.vercel.app
+PROFESSIONAL SUMMARY
+Creative and detail-oriented Frontend Engineer with production experience building responsive, performant, and accessible
+web applications. Delivered 2 live applications using React 19, TypeScript, Tailwind CSS, and Vite — a real-time AI calling
+dashboard with Twilio voice integration and an OAuth-secured multi-provider image search platform. TypeScript codebase
+coverage at 97% on the Image-Auth project. Skilled in component-based architecture, REST API integration, state
+management, OAuth 2.0 flows, and cross-browser compatibility. Strong track record of fast, production-ready Vercel
+deployments. Oracle Cloud AI Foundations Certified.
+KEY ACHIEVEMENTS
+• ​   Delivered 2 production React 19 / TypeScript applications — both live on Vercel with real users, demonstrating
+consistent end-to-end frontend delivery.
+• ​   Achieved  97% TypeScript codebase coverage  on Image-Authentication project — ensuring type safety, reduced runtime
+errors, and improved maintainability.
+• ​   Built a complex real-time React UI integrating Twilio voice SDK — live call controls, mic toggle, DTMF keypad, and
+recording status — handling real-time telephony state.
+• ​   Implemented multi-provider OAuth 2.0 login flows (Google, Facebook, GitHub) with  zero unauthorized access incidents
+across 100+ test users.
+• ​   Reduced perceived frontend load time by  ~40%  through async API calls, loading state management, and client-side
+caching strategies.
+TECHNICAL SKILLS
+Frameworks & Libraries:  React.js (React 19), TypeScript, JavaScript (ES6+), Hooks, Context API, State Management,
+Component-Based Architecture, React Router
+Styling & UI:  Tailwind CSS, CSS3, HTML5, Responsive Web Design, Mobile-First Design, UI Animations, Cross-Browser
+Compatibility, Accessibility (a11y)
+Build & Tooling:  Vite, ESLint, npm, vercel.json routing config, environment variable management
+API Integration:  REST APIs, Fetch API, Async/Await, OAuth 2.0, Supabase SDK, Twilio Client SDK, Unsplash API, SheetJS
+Performance:  Async Processing, Client-Side Caching, Lazy Loading, Code Splitting — ~40% load time improvement
+Backend (supporting):  Flask, Express.js, Node.js, Python — full-stack context for API integration
+Databases:  Supabase (Auth + PostgreSQL + RLS), SQL, MongoDB
+DevOps & Tools:  Git, GitHub, GitLab, Vercel, Render, CI/CD, Docker, Agile / Scrum, Code Reviews
+Languages:  TypeScript, JavaScript (ES6+), Python, C, C++
+PROFESSIONAL EXPERIENCE
+Frontend & AI Application Developer Intern  | Voice of Ether / Horizon Exhibits, Mumbai Dec 2025 – Present
+• ​   Built and maintained production React.js / TypeScript frontends integrated with Flask and Express backends; delivered
+responsive, accessible layouts across all device sizes.
+• ​   Integrated RESTful APIs from Python/Flask backend services into React frontends, enabling real-time data display and
+seamless cross-platform communication — reducing integration time by  ~35% .
+• ​   Identified and resolved frontend performance bottlenecks; refactored React components and optimized re-render
+cycles, reducing error rates and improving UI responsiveness for production users.
+• ​   Implemented secure OAuth 2.0 authentication flows and maintained reusable, well-documented React component
+libraries — ensuring consistent UI standards across all features.
+• ​   Collaborated in agile sprints delivering iterative UI features, communicating UX tradeoffs and technical decisions clearly
+to non-technical stakeholders across sprint cycles.
+TECHNICAL PROJECTS
+Image Search Platform with Multi-Provider OAuth  | github.com/Sauravv8/Image-Authentication  |  Live:
+image-authentication.vercel.app 2025
+• ​   Built a production full-stack image search application using React, TypeScript (97% codebase), Tailwind CSS, and Vite;
+integrated Unsplash API for real-time image retrieval with search history and trending analytics.
+• ​   Implemented multi-provider OAuth 2.0 authentication (Google, Facebook, GitHub) via Supabase Auth with Row Level
+Security policies — ensuring per-user data isolation with  zero unauthorized access incidents  across 100+ test users.
+• ​   Designed and deployed a PostgreSQL schema on Supabase with RLS-protected read/write policies for per-user search
+history; built trending search analytics giving data-driven insights on most searched terms.
+• ​   Deployed to Vercel with client-side routing config; applied secure environment variable management for all API keys
+across development and production environments.
+Stack:  React, TypeScript, Tailwind CSS, Vite, Supabase (Auth + PostgreSQL + RLS), Unsplash API, OAuth 2.0, Vercel, REST APIs
+ColdCaller.io — AI-Powered Cold Calling Platform  | github.com/Sauravv8/Calling-Bot  |  Live:
+calling-bot-omega.vercel.app 2025
+• ​   Architected a complete full-stack cold calling application using React 19 (TypeScript) frontend, Express.js / Node.js
+backend, and PostgreSQL database — fully deployed to Vercel with production-ready configuration.
+• ​   Integrated Twilio SDK for real-time voice calling with automatic call recording and webhook-based event tracking;
+integrated Google Gemini AI API to auto-generate context-aware call scripts, reducing manual script preparation time by
+~60% .
+• ​   Built a lead management system supporting Excel file import (SheetJS), per-lead status tracking, call notes, and CSV
+export with conversion rate analytics — significantly reducing manual sales workflow effort.
+• ​   Implemented CORS, Helmet.js security headers, and environment-variable-based credential management; designed
+PostgreSQL schema supporting full call history retrieval and lead analytics.
+Stack:  React 19, TypeScript, Express.js, Node.js, Twilio SDK, Google Gemini AI, PostgreSQL, Tailwind CSS, Vite, Vercel, REST APIs
+EDUCATION
+B.Tech in Artificial Intelligence  | GH Raisoni College of Engineering and Management, Nagpur 2022 – 2026
+CGPA: 7.88 / 10.0    |   Coursework: Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, Software
+Engineering, Machine Learning, NLP, Distributed Systems
+CERTIFICATIONS
+Oracle Cloud Infrastructure (OCI) 2025 Certified AI Foundations Associate   |  Oracle  |  Aug 2025 – Aug 2027
