@@ -69,7 +69,7 @@ export default function Hero() {
                 {/* Profile Photo */}
                 <div className="absolute inset-2 lg:inset-4 rounded-full overflow-hidden bg-primary-900/20 z-10 p-1 glass">
                     <img
-                        src={`http://localhost:8000/static/profile.jpg`}
+                        src={`${import.meta.env.VITE_API_URL || 'http://localhost:8000'}/static/profile.jpg`}
                         alt="Saurav Chopade"
                         className="w-full h-full object-cover rounded-full"
                         onError={(e) => {

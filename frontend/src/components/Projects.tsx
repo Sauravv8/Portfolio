@@ -160,7 +160,7 @@ export default function Projects() {
                     <h3 className="text-2xl font-bold text-white mb-6">Download my Resume</h3>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a
-                            href="http://localhost:8000/api/resume/Saurav_Chopade_FullStack.pdf"
+                            href={`${import.meta.env.VITE_API_URL || 'http://localhost:8000'}/api/resume/Saurav_Chopade_FullStack.pdf`}
                             download
                             className="btn-primary"
                         >
@@ -170,7 +170,7 @@ export default function Projects() {
                             Full Stack Resume
                         </a>
                         <a
-                            href="http://localhost:8000/api/resume/Saurav_Chopade_FrontendEngineer_Final.docx.pdf"
+                            href={`${import.meta.env.VITE_API_URL || 'http://localhost:8000'}/api/resume/Saurav_Chopade_FrontendEngineer_Final.docx.pdf`}
                             download
                             className="btn-outline"
                         >
@@ -180,7 +180,7 @@ export default function Projects() {
                             Frontend Resume
                         </a>
                         <a
-                            href="http://localhost:8000/api/resume/Saurav_Chopade_SoftwareEngineer_Final.pdf"
+                            href={`${import.meta.env.VITE_API_URL || 'http://localhost:8000'}/api/resume/Saurav_Chopade_SoftwareEngineer_Final.pdf`}
                             download
                             className="btn-outline"
                         >

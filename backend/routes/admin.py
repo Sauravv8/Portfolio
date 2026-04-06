@@ -12,7 +12,7 @@ load_env_path = Path(__file__).parent.parent / ".env"
 BACKEND_DIR = Path(__file__).parent.parent
 ADMIN_CONFIG_PATH = BACKEND_DIR / "admin_config.json"
 PROFILES_DIR = BACKEND_DIR / "profiles"
-RESUMES_DIR = BACKEND_DIR.parent / "resume"
+RESUMES_DIR = BACKEND_DIR / "resume"
 
 router = APIRouter()
 
