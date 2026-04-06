@@ -61,10 +61,23 @@ export default function Hero() {
                 </svg>
             </div>
 
-            {/* Decorative circle */}
-            <div className="absolute right-8 lg:right-32 top-1/2 -translate-y-1/2 w-56 h-56 lg:w-80 lg:h-80 opacity-10">
-                <div className="w-full h-full rounded-full border border-primary-500 animate-spin-slow" />
-                <div className="absolute inset-4 rounded-full border border-primary-400/50" />
+            {/* Decorative circle & Photo */}
+            <div className="absolute right-8 lg:right-32 top-1/2 -translate-y-1/2 w-56 h-56 lg:w-80 lg:h-80 opacity-90 transition-opacity duration-1000">
+                <div className="w-full h-full rounded-full border border-primary-500/30 absolute inset-0 animate-spin-slow pointer-events-none" />
+                <div className="absolute inset-4 rounded-full border border-primary-400/20 pointer-events-none z-0" />
+                
+                {/* Profile Photo */}
+                <div className="absolute inset-2 lg:inset-4 rounded-full overflow-hidden bg-primary-900/20 z-10 p-1 glass">
+                    <img
+                        src={`http://localhost:8000/static/profile.jpg`}
+                        alt="Saurav Chopade"
+                        className="w-full h-full object-cover rounded-full"
+                        onError={(e) => {
+                            // If no photo is uploaded yet, hide the img
+                            e.currentTarget.style.display = 'none'
+                        }}
+                    />
+                </div>
             </div>
 
             <div className="section-container w-full pt-32 pb-20 lg:pb-32">

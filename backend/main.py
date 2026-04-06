@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from database import Base, engine
 from routes.chat import router as chat_router
@@ -42,6 +43,11 @@ app.add_middleware(
 app.include_router(chat_router, prefix="/api")
 app.include_router(admin_router, prefix="/api")
 app.include_router(contact_router, prefix="/api")
+
+# Serve static files (like profile photos)
+static_dir = os.path.join(os.path.dirname(__file__), "static")
+os.makedirs(static_dir, exist_ok=True)
+app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 
 @app.get("/")

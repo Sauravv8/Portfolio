@@ -41,6 +41,7 @@ export default function Admin() {
   const [activeTab, setActiveTab] = useState<'profiles' | 'preview'>('profiles')
   const [switching, setSwitching] = useState(false)
   const [uploadingFor, setUploadingFor] = useState<string | null>(null)
+  const [photoUploading, setPhotoUploading] = useState(false)
 
   // Check saved session
   useEffect(() => {
@@ -132,6 +133,26 @@ export default function Admin() {
       showToast('Failed to upload resume PDF', 'error')
     } finally {
       setUploadingFor(null)
+    }
+  }
+
+  const uploadProfilePhoto = async (file: File) => {
+    setPhotoUploading(true)
+    try {
+      const formData = new FormData()
+      formData.append('file', file)
+      const res = await fetch(`${API_BASE}/api/admin/upload-photo`, {
+        method: 'POST',
+        headers: { 'x-admin-password': password },
+        body: formData,
+      })
+      if (!res.ok) throw new Error('Upload failed')
+      showToast('Profile photo updated successfully!', 'success')
+      // force reload image by triggering re-render if needed, but it's statically requested
+    } catch {
+      showToast('Failed to upload profile photo', 'error')
+    } finally {
+      setPhotoUploading(false)
     }
   }
 
@@ -246,11 +267,40 @@ export default function Admin() {
         {activeTab === 'profiles' && config && (
           <div className="space-y-6">
             <div className="glass rounded-2xl p-6 border border-white/10">
-              <h2 className="text-lg font-bold text-white mb-2">Resume Profiles</h2>
-              <p className="text-white/50 text-sm mb-6">
-                Switch which resume profile the AI chat uses. You can also upload a new PDF for any profile.
-                Changes take effect instantly — no restart needed.
-              </p>
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+                <div>
+                  <h2 className="text-lg font-bold text-white mb-1">Resume Profiles & Assets</h2>
+                  <p className="text-white/50 text-sm">
+                    Switch AI focus between profiles, upload fresh PDFs, or update your main profile photo.
+                  </p>
+                </div>
+                
+                {/* Photo Upload standalone button */}
+                <label className="shrink-0">
+                  <span className="sr-only">Upload Profile Photo</span>
+                  <input
+                    type="file"
+                    accept="image/*"
+                    className="sr-only"
+                    id="upload-photo-btn"
+                    onChange={(e) => {
+                      const file = e.target.files?.[0]
+                      if (file) uploadProfilePhoto(file)
+                    }}
+                  />
+                  <label
+                    htmlFor="upload-photo-btn"
+                    className={`btn-primary px-5 py-2 cursor-pointer flex items-center justify-center gap-2 ${
+                      photoUploading ? 'opacity-50 cursor-wait' : ''
+                    }`}
+                  >
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    {photoUploading ? 'Uploading...' : 'Change Profile Photo'}
+                  </label>
+                </label>
+              </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {Object.entries(config.profiles).map(([key, profile]) => {

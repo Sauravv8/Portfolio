@@ -3,7 +3,7 @@ import os
 import shutil
 from pathlib import Path
 
-from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
+from fastapi import APIRouter, Depends, HTTPException, UploadFile, File, Header
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
@@ -97,7 +97,7 @@ async def admin_login(req: AdminLoginRequest):
 
 
 @router.get("/admin/config")
-async def get_config(x_admin_password: str = None):
+async def get_config(x_admin_password: str = Header(None)):
     """Get current active profile and all profiles."""
     require_admin(x_admin_password)
     config = _load_config()
@@ -117,7 +117,7 @@ async def get_config(x_admin_password: str = None):
 
 
 @router.post("/admin/switch-profile")
-async def switch_profile(req: ProfileSwitchRequest, x_admin_password: str = None):
+async def switch_profile(req: ProfileSwitchRequest, x_admin_password: str = Header(None)):
     """Switch the active resume profile."""
     require_admin(x_admin_password)
     config = _load_config()
@@ -129,7 +129,7 @@ async def switch_profile(req: ProfileSwitchRequest, x_admin_password: str = None
 
 
 @router.get("/admin/profile/{profile_key}")
-async def get_profile(profile_key: str, x_admin_password: str = None):
+async def get_profile(profile_key: str, x_admin_password: str = Header(None)):
     """Get full resume data for a specific profile."""
     require_admin(x_admin_password)
     data = _load_profile(profile_key)
@@ -137,7 +137,7 @@ async def get_profile(profile_key: str, x_admin_password: str = None):
 
 
 @router.put("/admin/profile/{profile_key}")
-async def update_profile(profile_key: str, req: ResumeDataUpdate, x_admin_password: str = None):
+async def update_profile(profile_key: str, req: ResumeDataUpdate, x_admin_password: str = Header(None)):
     """Update resume data for a specific profile."""
     require_admin(x_admin_password)
     _save_profile(profile_key, req.data)
@@ -148,7 +148,7 @@ async def update_profile(profile_key: str, req: ResumeDataUpdate, x_admin_passwo
 async def upload_resume_pdf(
     profile_key: str,
     file: UploadFile = File(...),
-    x_admin_password: str = None
+    x_admin_password: str = Header(None)
 ):
     """Upload a new resume PDF for a profile."""
     require_admin(x_admin_password)
@@ -204,6 +204,29 @@ async def get_active_profile():
     active_key = config["active_profile"]
     data = _load_profile(active_key)
     return {"profile_key": active_key, "data": data}
+
+
+@router.post("/admin/upload-photo")
+async def upload_photo(
+    file: UploadFile = File(...),
+    x_admin_password: str = Header(None)
+):
+    """Upload a global profile photo."""
+    require_admin(x_admin_password)
+    
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="Only image files are accepted")
+    
+    static_dir = BACKEND_DIR / "static"
+    static_dir.mkdir(exist_ok=True)
+    
+    # Force single consistent filename
+    dest = static_dir / "profile.jpg"
+    with open(dest, "wb") as out:
+        content = await file.read()
+        out.write(content)
+        
+    return {"success": True, "message": "Profile photo updated instantly!"}
 
 
 @router.get("/resume/{filename}")
