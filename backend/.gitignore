@@ -1,0 +1,11 @@
+# Local databases and states (Important for not overriding prod when pushing!)
+chat.db
+contact_messages.json
+
+# Exclude generated static assets (except placeholder maybe, but for now ignore all so users don't push their live photos accidentally)
+static/*
+!static/.gitkeep
+
+# Exclude uploaded resumes
+../resume/*
+!../resume/.gitkeep
