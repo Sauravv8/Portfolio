@@ -5,7 +5,7 @@ const projects = [
             'Full-stack cold calling app with React 19 + TypeScript frontend, Express.js/Node.js backend, and PostgreSQL. Twilio SDK for real-time voice calls, Gemini AI generating dynamic call scripts. Lead management with Excel import & analytics — reducing manual sales effort by ~60%.',
         technologies: ['React 19', 'TypeScript', 'Express.js', 'Twilio SDK', 'Gemini AI', 'PostgreSQL', 'Vite'],
         github: 'https://github.com/Sauravv8/Calling-Bot',
-        live: 'https://calling-bot-omega.vercel.app',
+        live: 'https://calling-bot-pi.vercel.app',
         emoji: '📞',
     },
     {
@@ -160,7 +160,7 @@ export default function Projects() {
                     <h3 className="text-2xl font-bold text-white mb-6">Download my Resume</h3>
                     <div className="flex flex-wrap justify-center gap-4">
                         <a
-                            href="http://localhost:8000/resume/Saurav_Chopade_FullStack.pdf"
+                            href="http://localhost:8000/api/resume/Saurav_Chopade_FullStack.pdf"
                             download
                             className="btn-primary"
                         >
@@ -170,7 +170,7 @@ export default function Projects() {
                             Full Stack Resume
                         </a>
                         <a
-                            href="http://localhost:8000/resume/Saurav_Chopade_FrontendEngineer_Final.docx.pdf"
+                            href="http://localhost:8000/api/resume/Saurav_Chopade_FrontendEngineer_Final.docx.pdf"
                             download
                             className="btn-outline"
                         >
@@ -180,7 +180,7 @@ export default function Projects() {
                             Frontend Resume
                         </a>
                         <a
-                            href="http://localhost:8000/resume/Saurav_Chopade_SoftwareEngineer_Final.pdf"
+                            href="http://localhost:8000/api/resume/Saurav_Chopade_SoftwareEngineer_Final.pdf"
                             download
                             className="btn-outline"
                         >

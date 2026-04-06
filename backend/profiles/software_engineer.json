@@ -10,7 +10,7 @@
     "location": "Nagpur, Maharashtra",
     "linkedin": "https://linkedin.com/in/saurav-chopade-a377b0290",
     "github": "https://github.com/Sauravv8",
-    "portfolio": "https://calling-bot-omega.vercel.app"
+    "portfolio": "https://calling-bot-pi.vercel.app"
   },
   "achievements": [
     "Shipped 2 production-grade full-stack applications — frontend, backend, database, and cloud — all publicly live",
@@ -57,7 +57,7 @@
       "description": "Complete full-stack cold calling application with React 19 (TypeScript) frontend, Express.js/Node.js backend, and PostgreSQL. Integrates Twilio SDK for real-time voice calling with Gemini AI auto-generating context-aware call scripts. Reduces manual script preparation time by ~60%. Lead management with Excel import and analytics.",
       "technologies": ["React 19", "TypeScript", "Express.js", "Node.js", "Twilio SDK", "Gemini AI", "PostgreSQL", "Tailwind CSS", "Vite", "Vercel", "REST APIs"],
       "github": "https://github.com/Sauravv8/Calling-Bot",
-      "live": "https://calling-bot-omega.vercel.app",
+      "live": "https://calling-bot-pi.vercel.app",
       "emoji": "📞"
     },
     {

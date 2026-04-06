@@ -3,13 +3,29 @@ import { useState } from 'react'
 export default function Contact() {
     const [form, setForm] = useState({ name: '', email: '', message: '' })
     const [sent, setSent] = useState(false)
+    const [loading, setLoading] = useState(false)
+    const [error, setError] = useState('')
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-        // In production: wire to backend
-        setSent(true)
-        setTimeout(() => setSent(false), 4000)
-        setForm({ name: '', email: '', message: '' })
+        setLoading(true)
+        setError('')
+        try {
+            const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+            const res = await fetch(`${API_BASE}/api/contact`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(form)
+            })
+            if (!res.ok) throw new Error('Failed to send')
+            setSent(true)
+            setForm({ name: '', email: '', message: '' })
+            setTimeout(() => setSent(false), 4000)
+        } catch (e) {
+            setError('Something went wrong. Please email directly.')
+        } finally {
+            setLoading(false)
+        }
     }
 
     const socials = [
@@ -109,6 +125,11 @@ export default function Contact() {
                                     ✅ Message sent! I'll get back to you soon.
                                 </div>
                             )}
+                            {error && (
+                                <div className="rounded-xl bg-red-500/10 border border-red-500/30 px-4 py-3 text-red-300 text-sm animate-fade-in">
+                                    ⚠️ {error}
+                                </div>
+                            )}
                             <div>
                                 <label className="text-white/50 text-xs block mb-2">YOUR NAME</label>
                                 <input
@@ -142,11 +163,13 @@ export default function Contact() {
                                     className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm outline-none focus:border-primary-500/60 transition-colors resize-none"
                                 />
                             </div>
-                            <button type="submit" className="btn-primary w-full justify-center">
-                                Send Message
-                                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                                </svg>
+                            <button type="submit" disabled={loading} className="btn-primary w-full justify-center disabled:opacity-50">
+                                {loading ? 'Sending...' : 'Send Message'}
+                                {!loading && (
+                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                    </svg>
+                                )}
                             </button>
                         </form>
                     </div>

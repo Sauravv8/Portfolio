@@ -10,7 +10,7 @@
     "location": "Nagpur, Maharashtra",
     "linkedin": "https://linkedin.com/in/saurav-chopade-a377b0290",
     "github": "https://github.com/Sauravv8",
-    "portfolio": "https://calling-bot-omega.vercel.app"
+    "portfolio": "https://calling-bot-pi.vercel.app"
   },
   "achievements": [
     "Delivered 2 production React 19 / TypeScript applications — both live on Vercel with real users",
@@ -62,7 +62,7 @@
       "description": "Complex React 19 UI integrating Twilio SDK for real-time voice calling — live call controls, mic toggle, DTMF keypad, and recording status. Gemini AI auto-generates call scripts. Lead management with Excel import (SheetJS), status tracking, and analytics.",
       "technologies": ["React 19", "TypeScript", "Tailwind CSS", "Twilio SDK", "Gemini AI", "Vite", "Vercel"],
       "github": "https://github.com/Sauravv8/Calling-Bot",
-      "live": "https://calling-bot-omega.vercel.app",
+      "live": "https://calling-bot-pi.vercel.app",
       "emoji": "📞"
     },
     {

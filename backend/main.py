@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from database import Base, engine
 from routes.chat import router as chat_router
 from routes.admin import router as admin_router
+from routes.contact import router as contact_router
 
 load_dotenv()
 
@@ -40,6 +41,7 @@ app.add_middleware(
 # ─── Routers ───────────────────────────────────────────────────────────────────
 app.include_router(chat_router, prefix="/api")
 app.include_router(admin_router, prefix="/api")
+app.include_router(contact_router, prefix="/api")
 
 
 @app.get("/")
